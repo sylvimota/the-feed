@@ -6,6 +6,7 @@ body{
     background-position: 0px 0px, 0px 762px;
     background-repeat: no-repeat, repeat;
 }
+
 @font-face {
     font-family: 'Raleway';
     src: url(fonts/raleway/Raleway-Thin.woff2) format('woff2'),
@@ -115,4 +116,15 @@ a:visited{
     padding-left: 50px;
     grid-row: 10/11;
     grid-column: 1/2;
+}
+
+img{
+	height: 100%;
+	transition: all 0.5s ease;
+	filter: sepia(100%);
+}
+
+img:hover{
+	transform: scale(110%);
+	filter: none;
 }
