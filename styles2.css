@@ -1,0 +1,114 @@
+body{
+    color: white;
+    background-image: url(images/gradient.png);
+    background-size: contain;
+    background-repeat: repeat;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/raleway/Raleway-Thin.woff2) format('woff2'),
+        url(fonts/raleway/Raleway-Thin.woff) format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bowlby One SC';
+    src: url(fonts/raleway/BowlbyOneSC-Regular.woff2) format('woff2'),
+        url(fonts/raleway/BowlbyOneSC-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.header{
+    position: absolute;
+}
+
+.text{
+width: 700px
+}
+
+p{
+    padding: 20px;
+    background-color: rgb(150, 17, 17);
+    margin: 50px;
+}
+
+.pictures{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 6;
+}
+
+.pic1{
+    padding-top: 200px;
+    padding-left: 180px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .pic2{
+     padding-left: 50px;
+     padding-top: 50px;
+     grid-row: 2/3;
+     grid-column: 1/2;
+  }
+  .pic3{
+      padding-left: 150px;
+      padding-top: 200px;
+      grid-row: 2/3;
+      grid-column: 2/3;
+  }
+  .pic4{
+      padding-left: 50px;
+      padding-top: 200px;
+      grid-row: 3/4;
+      grid-column: 1/2;
+  }
+  .pic5{
+      padding-left: 150px;
+      padding-top: 200px;
+      grid-row: 3/4;
+      grid-column: 2/3;
+  }
+  .pic6{
+      padding-left: 50px;
+      padding-top: 200px;
+      grid-row: 4/5;
+      grid-column: 1/2;
+  }
+  .pic7{
+      padding-left: 150px;
+      padding-top: 200px;
+      grid-row: 4/5;
+      grid-column: 2/3;
+  }
+  .pic8{
+      padding-left: 50px;
+      padding-top: 200px;
+      grid-row: 5/6;
+      grid-column: 1/2;
+  }
+  .pic9{
+      padding-left: 150px;
+      padding-top: 200px;
+      grid-row: 5/6;
+      grid-column: 2/3;
+  }
+  .pic10{
+      padding-left: 50px;
+      padding-top: 200px;
+      grid-row: 6/7;
+      grid-column: 1/2;
+  }
+
+.home{
+    position: fixed;
+    left: 1100px;
+    top: 390px;
+}

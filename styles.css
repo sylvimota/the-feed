@@ -1,0 +1,118 @@
+body{
+    color: white;
+    background-image: url(images/feed1.png),
+    url(images/feed2.png);
+    background-size: contain, contain;
+    background-position: 0px 0px, 0px 762px;
+    background-repeat: no-repeat, repeat;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/raleway/Raleway-Thin.woff2) format('woff2'),
+        url(fonts/raleway/Raleway-Thin.woff) format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bowlby One SC';
+    src: url(fonts/raleway/BowlbyOneSC-Regular.woff2) format('woff2'),
+        url(fonts/raleway/BowlbyOneSC-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.sign{
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    font-family: 'Bowlby One SC';
+    font-size: 20px;
+    position: absolute;
+    top: 212px;
+    left: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    top: 270px;
+    left: 132px;
+    width: 175px;
+}
+a:hover{
+     color: rgb(177, 255, 184);
+}
+a{
+    color: white;
+}
+a:visited{
+    color: gold;
+}
+
+.container{
+    top: 400px;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 10;
+}
+.pic1{
+  padding-top: 110px;
+  padding-left: 150px;
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.pic2{
+   padding-left: 50px;
+   grid-row: 2/3;
+   grid-column: 1/2;
+}
+.pic3{
+    padding-left: 150px;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.pic4{
+    padding-left: 50px;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.pic5{
+    padding-left: 150px;
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+.pic6{
+    padding-left: 50px;
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+.pic7{
+    padding-left: 150px;
+    grid-row: 7/8;
+    grid-column: 2/3;
+}
+.pic8{
+    padding-left: 50px;
+    grid-row: 8/9;
+    grid-column: 1/2;
+}
+.pic9{
+    padding-left: 150px;
+    grid-row: 9/10;
+    grid-column: 2/3;
+}
+.pic10{
+    padding-left: 50px;
+    grid-row: 10/11;
+    grid-column: 1/2;
+}
