@@ -14,5 +14,9 @@ body{
     position: absolute;
     top: 50px;
     left: 205px;
+}
 
+img:hover{
+	transform: scale(110%);
+	filter: none;
 }
