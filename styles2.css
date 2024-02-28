@@ -1,10 +1,10 @@
 body{
     color: white;
-    background-image: url(images/gradient.png);
+    background-image: url(images/bluegradient1.png);
     background-size: contain;
     background-repeat: repeat;
     font-family: 'Raleway';
-    font-weight: 700;
+    font-weight: 900;
     font-size: 19px;
 }
 
